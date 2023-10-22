@@ -37,5 +37,14 @@ public class Main{
                 System.out.println(twod[i][j]);
             }
         }
+        // ArrayList
+        ArrayList<Integer> arrlist = new ArrayList<>();
+        for(int i=0;i<3;i++){
+            arrlist.add(i);
+        }
+        System.out.println(arrlist.toString());
+
+
+
     }
 }
