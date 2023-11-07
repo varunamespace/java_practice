@@ -6,6 +6,10 @@ public class subset {
     public static void main(String[] args) {
         String s= "ab";
         subsetRet("","ab");
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        arr.add(1);
+        arr.add(5);
+        System.out.println(arr.get(0));
 
     }
     static void subset(String p, String up){
